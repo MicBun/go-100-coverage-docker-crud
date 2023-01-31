@@ -47,4 +47,4 @@ password: password123
 ```
 
 ## Live Demo
-Go to //TODO// to see swagger documentation
+Go to https://tinyurl.com/MicBunFullCoverageGolang to see swagger documentation
