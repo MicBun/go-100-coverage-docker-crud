@@ -48,3 +48,7 @@ password: password123
 
 ## Live Demo
 Go to https://tinyurl.com/MicBunFullCoverageGolang to see swagger documentation
+
+## Contact
+If you have any questions, please contact me at
+- LinkedIn: https://www.linkedin.com/in/MicBun
