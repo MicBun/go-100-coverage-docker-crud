@@ -1,0 +1,48 @@
++-----------------+       +------------------+
+|                 |       |                  |
+|  User Interface | <---- |  REST API Server |
+|                 |       |                  |
++-----------------+       +------------------+
+            |                |
+            |                |
++-----------------+       +------------------+
+|                 |       |                  |
+|  Login Endpoint | ----> |   Login Service  |
+|                 |       |                  |
++-----------------+       +------------------+
+            |                |
+            |                |
++-----------------+       +------------------+
+|                 |       |                  |
+|  CRUD Endpoint  | ----> |  Database Server |
+|                 |       |                  |
++-----------------+       +------------------+
+            |                |
+            |                |
++-----------------+       +------------------+
+|                 |       |                  |
+| Authorization   | ----> |  Authorization   |
+|   Service        |       |  Service         |
++-----------------+       +------------------+
+
+User Interface: The client-side interface where the users interact with the application.
+
+REST API Server: A server that exposes a RESTful API for performing CRUD operations and authentication.
+
+Login Endpoint: An endpoint within the REST API that handles user authentication.
+
+Login Service: A service that verifies the user credentials and generates a JWT token.
+
+CRUD Endpoint: An endpoint within the REST API that handles the creation, reading, updating, and deletion of resources.
+
+Database Server: A database server that stores the data for the application.
+
+Authorization Service: A service that enforces access control to the REST API endpoints based on the user's role and the
+    requested resource.
+
+In this diagram, the user interacts with the application through the User Interface, which sends requests to the REST
+    API Server. The Login Endpoint communicates with the Login Service to verify the user credentials and generate a JWT
+    token. The CRUD Endpoint communicates with the Database Server to perform the CRUD operations on the data. Before
+    the CRUD endpoint can access the data, it communicates with the Authorization Service to ensure that the user has
+    the proper authorization. If the user is an admin, they can access all CRUD endpoints. If the user is a regular
+    user, they can only access their profile.
