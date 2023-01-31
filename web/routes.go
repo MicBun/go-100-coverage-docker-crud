@@ -1,9 +1,9 @@
 package web
 
 import (
-	"github.com/MicBun/go-microservice-kubernetes/service"
-	"github.com/MicBun/go-microservice-kubernetes/web/handlers"
-	"github.com/MicBun/go-microservice-kubernetes/web/middleware"
+	"github.com/MicBun/go-100-coverage-docker-crud/service"
+	"github.com/MicBun/go-100-coverage-docker-crud/web/handlers"
+	"github.com/MicBun/go-100-coverage-docker-crud/web/middleware"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )

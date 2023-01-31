@@ -1,4 +1,4 @@
-module github.com/MicBun/go-microservice-kubernetes
+module github.com/MicBun/go-100-coverage-docker-crud
 
 go 1.19
 

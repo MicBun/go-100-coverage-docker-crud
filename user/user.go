@@ -3,7 +3,7 @@ package user
 import (
 	"crypto/md5"
 	"fmt"
-	"github.com/MicBun/go-microservice-kubernetes/core"
+	"github.com/MicBun/go-100-coverage-docker-crud/core"
 
 	"gorm.io/gorm"
 )

@@ -2,7 +2,7 @@ package jwtAuth
 
 import (
 	"fmt"
-	"github.com/MicBun/go-microservice-kubernetes/util"
+	"github.com/MicBun/go-100-coverage-docker-crud/util"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"
 	"strconv"

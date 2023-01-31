@@ -1,7 +1,7 @@
 package user
 
 import (
-	"github.com/MicBun/go-microservice-kubernetes/database"
+	"github.com/MicBun/go-100-coverage-docker-crud/database"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

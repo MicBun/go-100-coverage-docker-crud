@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/MicBun/go-microservice-kubernetes/user"
+	"github.com/MicBun/go-100-coverage-docker-crud/user"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"

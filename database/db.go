@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/MicBun/go-microservice-kubernetes/core"
+	"github.com/MicBun/go-100-coverage-docker-crud/core"
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

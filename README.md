@@ -1,5 +1,5 @@
-# go-microservice-kubernetes
-This repository is for example for kubernetes implementation
+# go-100-coverage-docker-crud
+This repository is for example for go with 100% test coverage, docker and docker-compose
 It is also included with docker and docker-compose
 It has 100% test coverage
 

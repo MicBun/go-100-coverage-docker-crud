@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/MicBun/go-microservice-kubernetes/util/jwtAuth"
+	"github.com/MicBun/go-100-coverage-docker-crud/util/jwtAuth"
 	"github.com/gin-gonic/gin"
 )
 

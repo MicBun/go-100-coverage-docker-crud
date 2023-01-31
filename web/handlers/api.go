@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/MicBun/go-microservice-kubernetes/service"
-	"github.com/MicBun/go-microservice-kubernetes/util/jwtAuth"
+	"github.com/MicBun/go-100-coverage-docker-crud/service"
+	"github.com/MicBun/go-100-coverage-docker-crud/util/jwtAuth"
 	"net/http"
 	"strconv"
 

@@ -2,8 +2,8 @@ package web
 
 import (
 	"fmt"
-	"github.com/MicBun/go-microservice-kubernetes/database"
-	"github.com/MicBun/go-microservice-kubernetes/service"
+	"github.com/MicBun/go-100-coverage-docker-crud/database"
+	"github.com/MicBun/go-100-coverage-docker-crud/service"
 	"io"
 	"net/http"
 	"net/http/httptest"

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/MicBun/go-microservice-kubernetes/database"
-	"github.com/MicBun/go-microservice-kubernetes/docs"
-	"github.com/MicBun/go-microservice-kubernetes/service"
-	"github.com/MicBun/go-microservice-kubernetes/web"
+	"github.com/MicBun/go-100-coverage-docker-crud/database"
+	"github.com/MicBun/go-100-coverage-docker-crud/docs"
+	"github.com/MicBun/go-100-coverage-docker-crud/service"
+	"github.com/MicBun/go-100-coverage-docker-crud/web"
 	"github.com/joho/godotenv"
 	"log"
 )
